@@ -5,3 +5,8 @@ random_number = random.randint(10000, 99999)
 print(random_number)
 
 print(type(random_number))
+
+
+#Game Over
+print("Game Over")
+input("\n \n Press Enter to exit.")
