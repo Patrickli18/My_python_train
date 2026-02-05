@@ -11,7 +11,7 @@ class Critter(object):
         return rep
     
     def talk(self):
-        print("\nHi. I'm an instance of class Critter.")
+        print("\nHi. I'm ",self.name,"\n")
 
 
 #main
