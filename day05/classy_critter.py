@@ -24,6 +24,7 @@ crit4= Critter("critter 4")
 crit5= Critter("critter 5")
 
 Critter.status()
+
 print("Accessing the class attributer critter.total:",end =" ")
 print(Critter.total)
 
