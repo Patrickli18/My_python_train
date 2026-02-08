@@ -9,9 +9,12 @@ class Card(object):
     def __init__(self,rank,suit):
         self.rank = rank
         self.suit = suit
+        self.is_face_up = True   
     def __str__(self):
         rep = self.rank + self.suit
         return rep
+    def flip(self):             
+        self.is_face_up = not self.is_face_up
 
 class Hand(object):
     """A hand of playing cards."""

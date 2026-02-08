@@ -23,9 +23,9 @@ def ask_yes_no(question):
 def ask_number(question, low, high):
     """Ask for a number within a range."""
     response = None
-    while response not in range(low,high):
+    while response not in range(low, high + 1):
         response = int(input(question))
-    return response
+        return response
 
 if __name__ == "__main__":
     print("You ran this module dirctly (and did not 'import' it).")
