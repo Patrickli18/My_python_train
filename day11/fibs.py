@@ -14,3 +14,6 @@ def fibs(n):
 if __name__ == "__main__":
    lst = fibs(10)
    print(lst)
+
+print(fibs.__doc__)
+print(help(fibs))
