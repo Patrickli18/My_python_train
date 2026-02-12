@@ -7,3 +7,6 @@ for value in some_list:
             deplicates.append(value)
 
 print(deplicates)
+
+
+
